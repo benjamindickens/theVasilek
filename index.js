@@ -165,6 +165,8 @@ function first() {
 function calcAgain() {
   if (lastResult === undefined) {
     return null;
+  } else if (lastResult === null) {
+    return null;
   }
   for (let i = 0; i < 100; i++) {
     answer = confirm("продолжить вычисления?");
@@ -294,3 +296,5 @@ function calc() {
   first();
   calcAgain();
 }
+debugger;
+calc();
