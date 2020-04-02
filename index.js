@@ -74,7 +74,7 @@ function first() {
       } else {
         num2 = +num2;
         operator = prompt(
-          "что будем делать? add(сложить), sub(вычисть), mult(умножить) or div(делить)"
+          "что будем делать? add(сложить), sub(вычeсть), mult(умножить) or div(делить)"
         ).toLowerCase();
       }
     } // конец вложеный их для 2 попытки импута
@@ -83,7 +83,7 @@ function first() {
   else {
     num2 = +num2;
     operator = prompt(
-      "что будем делать? add(сложить), sub(вычисть), mult(умножить) or div(делить)"
+      "что будем делать? add(сложить), sub(вычeсть), mult(умножить) or div(делить)"
     ).toLowerCase();
   }
   //КОНЕЦ ЛОШГИЧЕСКИЙ ОПЕРАЦИИ ДЛЯ NUM2;
@@ -119,7 +119,7 @@ function first() {
     default: {
       alert("ну напечатай нормально уебок 'add' / 'sub' / 'mult' / 'div'");
       operator = prompt(
-        "что будем делать ? add(сложить), sub(вычисть), mult(умножить) or div(делить)"
+        "что будем делать ? add(сложить), sub(вычeсть), mult(умножить) or div(делить)"
       ).toLowerCase();
       switch (operator) {
         case "add": {
@@ -204,7 +204,7 @@ function second() {
       } else {
         num2 = +num2;
         operator = prompt(
-          "add(сложить), sub(вычисть), mult(умножить) or div(делить)"
+          "add(сложить), sub(вычeсть), mult(умножить) or div(делить)"
         ).toLowerCase();
       }
     } // конец вложеный их для 2 попытки импута
@@ -213,7 +213,7 @@ function second() {
   else {
     num2 = +num2;
     operator = prompt(
-      "что будем делать ? add(сложить), sub(вычисть), mult(умножить) or div(делить)"
+      "что будем делать ? add(сложить), sub(вычeсть), mult(умножить) or div(делить)"
     ).toLowerCase();
   }
 
@@ -248,7 +248,7 @@ function second() {
     default: {
       alert("ну напечатай нормально уебок 'add' / 'sub' / 'mult' / 'div'");
       operator = prompt(
-        "что будем делать ? add(сложить), sub(вычисть), mult(умножить) or div(делить)"
+        "что будем делать ? add(сложить), sub(вычeсть), mult(умножить) or div(делить)"
       ).toLowerCase();
       switch (operator) {
         case "add": {
