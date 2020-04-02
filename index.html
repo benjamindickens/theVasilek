@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VasyaCalc</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background: #c7b198;
+      }
+      .grid {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        height: 95vh;
+        display: grid;
+        justify-items: center;
+        grid-gap: 20px;
+      }
+      img {
+        height: 60vh;
+        max-width: 100%;
+      }
+      h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        color: #596e79;
+      }
+      h3 {
+        font-size: 3rem;
+        font-weight: 900;
+        font-style: italic;
+        color: #ffffff;
+      }
+      h4 {
+        color: #596e79;
+      }
+      .content {
+        grid-gap: 10px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+      }
+      input {
+        font-size: 2rem;
+      }
+      @media only screen and (max-width: 350px) {
+        html {
+          font-size: 13px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <img src="vasya.png" alt="" />
+      <div class="content">
+        <h1>ЗЕ КАЛЬКУЛЯТОР</h1>
+        <h3>"Василёк"</h3>
+        <h4>
+          Поможет решить любую задачку!<br />Cложение, вычитание, деление и
+          умножение!
+        </h4>
+        <input
+          class="btn-main btn btn-lg btn-warning"
+          type="button"
+          value="Начать вычисления"
+          name="начать вычисления"
+          OnClick="calc();"
+        />
+      </div>
+      <footer>
+        &copy; Ben Dickens 02.04.2020
+      </footer>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
