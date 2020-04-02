@@ -75,7 +75,7 @@ function first() {
         num2 = +num2;
         operator = prompt(
           "что будем делать? add(сложить), sub(вычисть), mult(умножить) or div(делить)"
-        );
+        ).toLowerCase();
       }
     } // конец вложеный их для 2 попытки импута
     //=======================================================================>
@@ -84,7 +84,7 @@ function first() {
     num2 = +num2;
     operator = prompt(
       "что будем делать? add(сложить), sub(вычисть), mult(умножить) or div(делить)"
-    );
+    ).toLowerCase();
   }
   //КОНЕЦ ЛОШГИЧЕСКИЙ ОПЕРАЦИИ ДЛЯ NUM2;
 
@@ -120,7 +120,7 @@ function first() {
       alert("ну напечатай нормально уебок 'add' / 'sub' / 'mult' / 'div'");
       operator = prompt(
         "что будем делать ? add(сложить), sub(вычисть), mult(умножить) or div(делить)"
-      );
+      ).toLowerCase();
       switch (operator) {
         case "add": {
           lastResult = add(num1, num2);
@@ -203,7 +203,7 @@ function second() {
         num2 = +num2;
         operator = prompt(
           "add(сложить), sub(вычисть), mult(умножить) or div(делить)"
-        );
+        ).toLowerCase();
       }
     } // конец вложеный их для 2 попытки импута
     //=======================================================================>
@@ -212,7 +212,7 @@ function second() {
     num2 = +num2;
     operator = prompt(
       "что будем делать ? add(сложить), sub(вычисть), mult(умножить) or div(делить)"
-    );
+    ).toLowerCase();
   }
 
   //КОНЕЦ ЛОШГИЧЕСКИЙ ОПЕРАЦИИ ДЛЯ NUM2;
@@ -247,7 +247,7 @@ function second() {
       alert("ну напечатай нормально уебок 'add' / 'sub' / 'mult' / 'div'");
       operator = prompt(
         "что будем делать ? add(сложить), sub(вычисть), mult(умножить) or div(делить)"
-      );
+      ).toLowerCase();
       switch (operator) {
         case "add": {
           lastResult = add(lastResult, num2);
